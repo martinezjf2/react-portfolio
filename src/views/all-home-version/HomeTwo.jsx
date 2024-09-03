@@ -26,10 +26,10 @@ const HomeTwo = () => {
       <Portfolio />
       {/* End Portfolio Section */}
 
-      <Skills />
+      {/* <Skills /> */}
       {/* End Skills Section */}
 
-      <Video />
+      {/* <Video /> */}
       {/* End Video Section */}
 
       <div className="shane_tm_section">
@@ -54,7 +54,7 @@ const HomeTwo = () => {
               >
                 <div className="shane_tm_title">
                   <span>Testimonials</span>
-                  <h3>What clients say about my portfolio template</h3>
+                  <h3>What do co-wrokers have to say about me and my personality</h3>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const HomeTwo = () => {
       </div>
       {/* End  shane_tm_testimonials*/}
 
-      {/* <News /> */}
+      <News />
       {/* End Blog Section */}
 
       <CallToAction />

@@ -14,10 +14,16 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
+                  {/* <img src="/img/slider/jeff.png" alt="placeholder" /> */}
 
-                  <div
+
+                  {/* <div
                     className="main"
                     style={{ backgroundImage: "url(img/about/2.jpg)" }}
+                  ></div> */}
+                  <div
+                    className="main"
+                    style={{ backgroundImage: "url(img/slider/3.png)" }}
                   ></div>
                 </div>
                 {/* End image */}
