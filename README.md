@@ -1,10 +1,10 @@
-# Tokyo React Personal Portfolio Template
+# React Personal Portfolio
 
 ## Description
 Setup Procedure
 ## Project setup
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### Compiles and hot-reloads for development
