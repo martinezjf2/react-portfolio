@@ -2,7 +2,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "Design", "Branding", "Photography"];
+const tabList = ["All", "Landing", "Email", "Newsletter"];
 
 const tabListContent = [
   {
@@ -49,59 +49,9 @@ const tabListContent = [
       },
     ],
   },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/1.jpg",
-        title: " My Story",
-        meta: "Design",
-        portfolioLink: "https://www.instagram.com/",
-      },
-      {
-        img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "Branding",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/15.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
-    ],
-  },
+  
+  
+  
 ];
 
 const Portfolio = () => {

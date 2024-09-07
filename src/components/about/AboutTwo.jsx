@@ -37,7 +37,7 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Creative Ui & Ux Designer based in New York, USA</h3>
+                  <h3>Creative Developer based in New York, USA</h3>
                 </div>
                 <div
                   className="text"
@@ -45,12 +45,14 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I'm web designer, and I'm very passionate and dedicated to
-                    my work. With 20 years experience as a professional web
-                    developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                    My greatest satisfaction comes from helping others grow and being part of their success stories.
+                    I love tackling challenges with problem-solving techniques.
+                    I’m the kind of person who makes the most of every moment, whether it’s
+                    celebrating achievements with family and friends or hitting the gym to motivate my
+                    brothers to push harder. I also value tough conversations and being there as a shoulder
+                    to lean on when someone needs support.
                   </p>
+                  
                 </div>
                 <div
                   className="shane_tm_button"

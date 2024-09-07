@@ -4,7 +4,7 @@ import Social from "../Social";
 
 Modal.setAppElement("#root");
 
-const NewsTwo = () => {
+const Blog = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -24,8 +24,8 @@ const NewsTwo = () => {
       <div className="shane_tm_news">
         <div className="container">
           <div className="shane_tm_title">
-            <span>News</span>
-            <h3>Latest News</h3>
+            <span>My Blog</span>
+            <h3>Latest Articles</h3>
           </div>
           {/* End shane_tm_title */}
           <div className="news_list">
@@ -429,4 +429,4 @@ const NewsTwo = () => {
   );
 };
 
-export default NewsTwo;
+export default Blog;

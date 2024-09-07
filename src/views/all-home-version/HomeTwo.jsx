@@ -3,11 +3,11 @@ import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderTwo";
 import About from "../../components/about/AboutTwo";
 import Portfolio from "../../components/portfolio/PortfolioTwo";
-import Skills from "../../components/skills/SkillsTwo";
-import Video from "../../components/video/VideoTwo";
+// import Skills from "../../components/skills/SkillsTwo";
+// import Video from "../../components/video/VideoTwo";
 import Brand from "../../components/BrandAnimation";
 import Testimonial from "../../components/testimonial/TestimonialTwo";
-import News from "../../components/news/NewsTwo";
+import Blog from "../../components/news/Blog";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 
@@ -54,7 +54,7 @@ const HomeTwo = () => {
               >
                 <div className="shane_tm_title">
                   <span>Testimonials</span>
-                  <h3>What do co-wrokers have to say about me and my personality</h3>
+                  <h3>What do people think of me <br></br>and my personality</h3>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const HomeTwo = () => {
       </div>
       {/* End  shane_tm_testimonials*/}
 
-      <News />
+      <Blog />
       {/* End Blog Section */}
 
       <CallToAction />

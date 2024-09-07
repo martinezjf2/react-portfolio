@@ -29,7 +29,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                Software Developer
+                Front-End Software Developer & Content Editor
                 <span className="overlay_effect"></span>
               </span>
             </div>

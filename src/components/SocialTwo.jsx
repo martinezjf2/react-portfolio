@@ -11,11 +11,15 @@ const SocialShare = [
   },
   {
     iconName: "linkedin",
-    link: "https://www.tiktok.com/",
+    link: "https://www.linkedin.com/in/martinezjf2/",
   },
   {
     iconName: "medium",
-    link: "https://www.tiktok.com/",
+    link: "https://martinezjf2.medium.com",
+  },
+  {
+    iconName: "github",
+    link: "https://github.com/martinezjf2",
   }
 ];
 const Social = () => {
