@@ -7,7 +7,7 @@ import Portfolio from "../../components/portfolio/PortfolioTwo";
 // import Video from "../../components/video/VideoTwo";
 import Brand from "../../components/BrandAnimation";
 import Testimonial from "../../components/testimonial/TestimonialTwo";
-import Blog from "../../components/news/Blog";
+// import Blog from "../../components/news/Blog";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 
@@ -23,16 +23,7 @@ const HomeTwo = () => {
       <About />
       {/* End About Section */}
 
-      <Portfolio />
-      {/* End Portfolio Section */}
-
-      {/* <Skills /> */}
-      {/* End Skills Section */}
-
-      {/* <Video /> */}
-      {/* End Video Section */}
-
-      <div className="shane_tm_section">
+       <div className="shane_tm_section">
         <div className="shane_tm_partners">
           <div className="container">
             <div className="partners_inner">
@@ -43,7 +34,18 @@ const HomeTwo = () => {
       </div>
       {/* End shane_tm_partners */}
 
-      <div className="shane_tm_section">
+      <Portfolio />
+      {/* End Portfolio Section */}
+
+      {/* <Skills /> */}
+      {/* End Skills Section */}
+
+      {/* <Video /> */}
+      {/* End Video Section */}
+
+     
+
+      <div className="shane_tm_section" id="testimonials">
         <div className="shane_tm_testimonials">
           <div className="container">
             <div className="testimonials_inner">
@@ -71,7 +73,7 @@ const HomeTwo = () => {
       </div>
       {/* End  shane_tm_testimonials*/}
 
-      <Blog />
+      {/* <Blog /> */}
       {/* End Blog Section */}
 
       <CallToAction />

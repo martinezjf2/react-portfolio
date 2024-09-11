@@ -19,7 +19,7 @@ const CallToActionTwo = () => {
         className="shane_tm_talk bg_image_props"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/callto-action/2.jpg"
+            process.env.PUBLIC_URL + "img/callto-action/4.jpg"
           })`,
         }}
       >

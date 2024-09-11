@@ -816,6 +816,7 @@ body.loaded .overlay_effect:after {
   clear: both;
   float: left;
   padding: 150px 0px;
+  background-color: #f9f9f9;
   @media screen and (max-width: 992px) {
     padding: 60px 0px;
   }
@@ -1434,8 +1435,8 @@ ul.react-tabs__tab-list {
   height: auto;
   clear: both;
   float: left;
-  background-color: #f9f9f9;
-  padding: 150px 0px;
+  background-color: #fff;
+  padding: 150px 0px 100px;
   @media screen and (max-width: 992px) {
     padding: 60px 0px;
   }

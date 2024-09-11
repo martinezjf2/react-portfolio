@@ -2,7 +2,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "Landing", "Email", "Newsletter"];
+const tabList = ["All", "Landing", "Email", "Newsletter", "Fullstack"];
 
 const tabListContent = [
   {

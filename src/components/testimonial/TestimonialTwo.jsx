@@ -19,10 +19,14 @@ export default function TestimonialTwo() {
         <li className="item">
           <div className="texts">
             <p>
-              We were looking for a logo with a touch of modernism. Arlo grasped
-              our needs and produced a stunning design. Awesome to work with
-              Arlo. Incredibly organized, easy to communicate with, responsive
-              with next iterations.
+              I want to recognize Jeffrey Martinez for his outstanding contributions as a technical coach and community builder.
+              In my capacity as Jeffrey's direct manager, though our time working together has been relatively short,
+              I have witnessed his exceptional talent and dedication.
+              <br></br><br></br>
+              Jeffrey has been instrumental in fostering a supportive learning environment for
+              aspiring developers through his role as a technical coach. He has organized events
+              aimed at preparing students for the SE program, demonstrating both his technical
+              expertise and his ability to build community.
             </p>
             <div className="author">
               <div className="image">
@@ -37,10 +41,10 @@ export default function TestimonialTwo() {
               </div>
               <div className="short">
                 <h3 className="author">
-                  <span>Justin Bieber</span>
+                  <span>Cody Green</span>
                 </h3>
                 <h3 className="job">
-                  <span>Photographer</span>
+                  <span>Technical Faculty Manager</span>
                 </h3>
               </div>
             </div>
@@ -51,10 +55,15 @@ export default function TestimonialTwo() {
         <li className="item">
           <div className="texts">
             <p>
-              I purchased the theme a few weeks ago. I had some issues with the
-              theme, I asked customer support to help me with and they were
-              helpful and kind to help me with all my problems. I definitely
-              recommend this theme to everyone.
+              Jeffrey is one of the most consistently positive and upbeat people I have ever worked with.
+              I was his team lead, and we collaborated on documentation, training materials, and best practices
+              for supporting software engineering students.
+              <br></br><br></br>
+              Jeffrey is adaptable, curious, and a team player. He is always ready to jump in and help students and coaches,
+              try new strategies, and offer a fresh perspective during planning sessions.
+              Whether working 1:1 or 1:many with students, Jeffrey approaches teaching with a sense of
+              humor and an ability to make technical concepts simple and accessible. Students consistently give him
+              favorable reviews, and he would be an asset to any team.
             </p>
             <div className="author">
               <div className="image">
@@ -69,10 +78,10 @@ export default function TestimonialTwo() {
               </div>
               <div className="short">
                 <h3 className="author">
-                  <span>Teodor Federico</span>
+                  <span>Dominique De Leon</span>
                 </h3>
                 <h3 className="job">
-                  <span>Freelancer</span>
+                  <span>Former Tech Lead @ Flatiron School</span>
                 </h3>
               </div>
             </div>
@@ -83,10 +92,9 @@ export default function TestimonialTwo() {
         <li className="item">
           <div className="texts">
             <p>
-              Really the Code, Support, and design are awesome and its good
-              support they are giving. They give an instant solution to our
-              needs. Really awesome. I will strongly recommend to my friends.
-              Great template, even better service!
+              What truly sets Jeffrey apart is his exceptional talent as a technical coach. He has an innate ability to explain complex concepts in a clear and concise manner, making him an invaluable resource for team members seeking guidance and mentorship. Jeffrey's patience, approachability, and genuine interest in the success of others have created a nurturing environment where individuals can thrive and reach their full potential. I have witnessed firsthand the positive impact he has had on the professional growth of several team members, myself included.
+              <br></br><br></br>
+              Beyond his technical prowess and coaching abilities, Jeffrey's strong leadership skills have been instrumental in driving successful projects and fostering collaboration within our team. He is an excellent communicator, adept at facilitating effective cross-functional communication and ensuring alignment between team members. His natural ability to motivate and inspire others has helped foster a culture of professionalism and excellence.
             </p>
             <div className="author">
               <div className="image">
@@ -101,10 +109,10 @@ export default function TestimonialTwo() {
               </div>
               <div className="short">
                 <h3 className="author">
-                  <span>Bauen Fernandes</span>
+                  <span>Luis Dejesus Castro</span>
                 </h3>
                 <h3 className="job">
-                  <span>Web Developer</span>
+                  <span>Technical Coach @ Flatiron School</span>
                 </h3>
               </div>
             </div>
