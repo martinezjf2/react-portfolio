@@ -360,7 +360,8 @@ h6 {
 }
 .my_trigger .hamburger--collapse-r .hamburger-inner::after {
   top: -16px;
-  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    opacity 0.1s linear;
 }
 .my_trigger .hamburger--collapse-r .hamburger-inner::before {
   transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
@@ -374,7 +375,8 @@ h6 {
 .my_trigger .hamburger--collapse-r.is-active .hamburger-inner::after {
   top: 0;
   opacity: 0;
-  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    opacity 0.1s 0.22s linear;
 }
 .my_trigger .hamburger--collapse-r.is-active .hamburger-inner::before {
   top: 0;
@@ -1500,7 +1502,11 @@ ul.react-tabs__tab-list {
 
   transform: scale(1.5) translateZ(0);
 }
-.shane_tm_testimonials .right .slick-slide.slick-active.slick-current .author .main {
+.shane_tm_testimonials
+  .right
+  .slick-slide.slick-active.slick-current
+  .author
+  .main {
   opacity: 1;
   transition: all 1s 0.3s ease;
   transform: scale(1) translateZ(0);
@@ -1541,11 +1547,21 @@ ul.react-tabs__tab-list {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-.shane_tm_testimonials .right .slick-slide.slick-active.slick-current .short .author span {
+.shane_tm_testimonials
+  .right
+  .slick-slide.slick-active.slick-current
+  .short
+  .author
+  span {
   transform: translateY(0px);
   transition-delay: 0.3s;
 }
-.shane_tm_testimonials .right .slick-slide.slick-active.slick-current .short .job span {
+.shane_tm_testimonials
+  .right
+  .slick-slide.slick-active.slick-current
+  .short
+  .job
+  span {
   transform: translateY(0px);
   transition-delay: 0.6s;
 }
@@ -2015,7 +2031,7 @@ body.modal {
   padding-top: 95px;
 }
 .shane_tm_mobalbox_contact .left {
-  width: 50%;
+  width: 100%;
   padding-right: 25px;
 }
 .shane_tm_mobalbox_contact .fields {
@@ -2075,12 +2091,12 @@ body.modal {
   text-align: left;
   font-weight: 500;
 }
-.shane_tm_mobalbox_contact .right {
-  width: 50%;
-  padding-left: 25px;
-  position: relative;
-  top: 6px;
-}
+// .shane_tm_mobalbox_contact .right {
+//   width: 50%;
+//   padding-left: 25px;
+//   position: relative;
+//   top: 6px;
+// }
 .shane_tm_mobalbox_contact .map_wrap {
   height: auto;
   .map > div {
@@ -2273,8 +2289,10 @@ body.modal {
   height: 6px;
   z-index: 100;
   background-color: #000;
-  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
   margin-left: -40px;

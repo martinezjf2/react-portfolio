@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const partnerList = [
-  { img: "1", animationDealay: "" },
-  { img: "2", animationDealay: "30" },
-  { img: "3", animationDealay: "60" },
-  { img: "4", animationDealay: "90" },
+  { img: "analytics", animationDealay: "" },
+  { img: "mjml-logo", animationDealay: "30" },
+  { img: "shopify", animationDealay: "60" },
+  { img: "wordpress", animationDealay: "90" },
   { img: "5", animationDealay: "120" },
   { img: "6", animationDealay: "150" },
   { img: "7", animationDealay: "180" },

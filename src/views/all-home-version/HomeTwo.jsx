@@ -56,7 +56,7 @@ const HomeTwo = () => {
               >
                 <div className="shane_tm_title">
                   <span>Testimonials</span>
-                  <h3>What do people think of me <br></br>and my personality</h3>
+                  <h3>What do people think of me and my personality</h3>
                 </div>
               </div>
 

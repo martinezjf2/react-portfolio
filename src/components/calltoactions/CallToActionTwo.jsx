@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Map from "../Map";
+// import Map from "../Map";
 import Contact from "../Contact";
-import Social from "../Social";
+// import Social from "../Social";
 
 Modal.setAppElement("#root");
 
@@ -29,7 +29,7 @@ const CallToActionTwo = () => {
         {/* End shape */}
 
         <div className="background" id="talk">
-          <a className="player"></a>
+          {/* <a className="player"></a> */}
           <div className="overlay"></div>
         </div>
         {/* End background */}
@@ -81,57 +81,14 @@ const CallToActionTwo = () => {
                   </div>
                 </div>
                 {/* End left */}
-                <div className="right">
+                {/* <div className="right">
                   <div className="map_wrap">
                     <Map />
                   </div>
-                </div>
+                </div> */}
                 {/* End right */}
               </div>
               {/* End wrapper */}
-
-              <div className="short_info">
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/location.svg"
-                        alt="location"
-                      />
-                      <p>Brook 103, 90021 New York, USA</p>
-                    </div>
-                  </li>
-                  {/* End silgle address */}
-
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/phone.svg"
-                        alt="phone"
-                      />
-                      <p>
-                        <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
-                      </p>
-                    </div>
-                  </li>
-                  {/* End silgle address */}
-
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/share.svg"
-                        alt="share"
-                      />
-                      <Social />
-                    </div>
-                  </li>
-                  {/* End silgle address */}
-                </ul>
-              </div>
-              {/* End modal conetent */}
             </div>
           </div>
           {/* End box inner */}

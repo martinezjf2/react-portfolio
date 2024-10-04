@@ -3,7 +3,7 @@ import Social from "../SocialTwo";
 
 const Slider = () => {
   return (
-    <div className="slider-two">
+    <div className="slider-two" id="home">
       <div className="shane_tm_hero" id="home" data-style="three">
         <div className="background">
           <div
@@ -29,7 +29,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                Front-End Software Developer & Content Editor
+                Software Developer, Content Editor, Email Developer
                 <span className="overlay_effect"></span>
               </span>
             </div>
