@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AllRouter from "./router/AllRouter";
-import ScrollToTop from "./components/ScrollToTop";
+// import ScrollToTop from "./components/ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "photoswipe/dist/photoswipe.css";
@@ -12,7 +12,7 @@ const App = () => {
   }, []);
   return (
     <div className="shane_tm_all_wrap">
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <AllRouter />
     </div>
   );
