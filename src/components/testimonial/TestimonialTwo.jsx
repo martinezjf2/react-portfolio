@@ -144,7 +144,7 @@ export default function TestimonialTwo() {
                   <span>May Cheung</span>
                 </h3>
                 <h3 className="job">
-                  <span>Director of Student Servies @ Flatiron School</span>
+                  <span>Senior Director of Instruction @ Flatiron School</span>
                 </h3>
               </div>
             </div>
