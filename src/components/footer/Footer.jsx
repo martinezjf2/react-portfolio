@@ -10,11 +10,11 @@ const Footer = () => {
               <p>
                 &copy; {new Date().getFullYear()} by{" "}
                 <a
-                  href="https://themeforest.net/user/ib-themes"
+                  href="https://jeffreys-portfolio.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  ib-themes
+                  Jeffrey Martinez
                 </a>
                 . All rights reserved.
               </p>
