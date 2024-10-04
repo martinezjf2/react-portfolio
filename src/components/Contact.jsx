@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
   const {
     register,
     handleSubmit,
@@ -9,13 +12,38 @@ const Contact = () => {
   } = useForm();
 
   const onSubmit = (data, e) => {
-    e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+    e.preventDefault(); // prevent default form submission
+
+    emailjs
+      .sendForm(
+        "service_3n8xbix",
+        "personal_website",
+        form.current,
+        "user_RYevFp6mtIxGCcmTimhuP"
+      )
+      .then(
+        () => {
+          console.log("Message sent successfully!");
+        },
+        (error) => {
+          console.log("Failed to send message...", error.text);
+        }
+      );
+
+    e.target.reset(); // Reset the form after submission
+    let button = e.target[3];
+    button.style.color = "white";
+    button.style.backgroundColor = "green";
+    button.innerText = "Message Sent";
   };
 
   return (
     <>
-      <form className="contact_form" onSubmit={handleSubmit(onSubmit)}>
+      <form
+        ref={form}
+        className="contact_form"
+        onSubmit={handleSubmit(onSubmit)}
+      >
         <div className="first">
           <ul>
             <li>
@@ -28,27 +56,21 @@ const Contact = () => {
                 <span>Name is required</span>
               )}
             </li>
-            {/* End first name field */}
 
             <li>
               <input
-                {...register(
-                  "email",
-                  {
-                    required: "Email is Required",
-                    pattern: {
-                      value: /\S+@\S+\.\S+/,
-                      message: "Entered value does not match email format",
-                    },
+                {...register("email", {
+                  required: "Email is required",
+                  pattern: {
+                    value: /\S+@\S+\.\S+/,
+                    message: "Entered value does not match email format",
                   },
-                  { required: true }
-                )}
+                })}
                 type="email"
                 placeholder="Email"
               />
               {errors.email && <span role="alert">{errors.email.message}</span>}
             </li>
-            {/* End email name field */}
 
             <li>
               <textarea
@@ -57,7 +79,6 @@ const Contact = () => {
               ></textarea>
               {errors.subject && <span>Subject is required.</span>}
             </li>
-            {/* End subject  field */}
           </ul>
         </div>
 
@@ -66,9 +87,7 @@ const Contact = () => {
             Send Message
           </button>
         </div>
-        {/* End tokyo_tm_button */}
       </form>
-      {/* End contact */}
     </>
   );
 };
