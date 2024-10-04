@@ -74,10 +74,10 @@ const Contact = () => {
 
             <li>
               <textarea
-                {...register("subject", { required: true })}
+                {...register("message", { required: true })}
                 placeholder="Message"
               ></textarea>
-              {errors.subject && <span>Subject is required.</span>}
+              {errors.subject && <span>Message is required.</span>}
             </li>
           </ul>
         </div>
