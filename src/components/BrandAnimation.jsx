@@ -8,7 +8,7 @@ const partnerList = [
   { img: "mjml-logo", animationDealay: "30" },
   { img: "shopify", animationDealay: "60" },
   { img: "wordpress", animationDealay: "90" },
-  { img: "5", animationDealay: "120" },
+  { img: "6", animationDealay: "120" },
   { img: "6", animationDealay: "150" },
   { img: "7", animationDealay: "180" },
   { img: "8", animationDealay: "210" },
