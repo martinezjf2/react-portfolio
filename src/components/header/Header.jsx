@@ -24,7 +24,11 @@ const Header = () => {
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
             <NavLink to="/">
-              <img src="/img/logo/new/jeffrey-2.png" alt="partners brand" width={100}/>
+              <img
+                src="/img/logo/new/jeffrey-2.png"
+                alt="partners brand"
+                width={100}
+              />
             </NavLink>
           </div>
           {/* End logo */}
@@ -44,9 +48,9 @@ const Header = () => {
               <li>
                 <a href="#portfolio">Portfolio</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials">Testimonials</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact">Contact</a>
               </li>
