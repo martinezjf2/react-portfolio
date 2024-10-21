@@ -16,7 +16,6 @@ const AboutTwo = () => {
                   <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
                   {/* <img src="/img/slider/jeff.png" alt="placeholder" /> */}
 
-
                   {/* <div
                     className="main"
                     style={{ backgroundImage: "url(img/about/2.jpg)" }}
@@ -45,14 +44,16 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    My greatest satisfaction comes from helping others grow and being part of their success stories.
-                    I love tackling challenges with problem-solving techniques.
-                    I’m the kind of person who makes the most of every moment, whether it’s
-                    celebrating achievements with family and friends or hitting the gym to motivate my
-                    brothers to push harder. I also value tough conversations and being there as a shoulder
-                    to lean on when someone needs support.
+                    I'm a developer who loves bringing creative ideas to life
+                    through web applications. Whether learning a new language or
+                    enhancing projects with user-friendly features, I’m always
+                    looking to push my limits.
                   </p>
-                  
+                  <p style={{ paddingTop: "20px" }}>
+                    Outside of coding, I enjoy spending time with my family,
+                    visiting amusement parks, exploring new places, and relaxing
+                    by playing guitar outdoors.
+                  </p>
                 </div>
                 <div
                   className="shane_tm_button"

@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import { Tab, Tabs, TabList } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "Landing", "Email", "Newsletter", "Fullstack", "Design"];
+const tabList = [
+  "All",
+  "Landing",
+  "Email",
+  "Newsletter",
+  "Fullstack",
+  "Design",
+];
 
 const portfolioItems = [
   {
@@ -41,6 +48,12 @@ const portfolioItems = [
     meta: "Newsletter",
     portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
   },
+  // {
+  //   img: "/img/portfolio/dvc.png",
+  //   title: "Portos",
+  //   meta: "Landing",
+  //   portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
+  // },
 ];
 
 const Portfolio = () => {
@@ -88,7 +101,9 @@ const Portfolio = () => {
                             style={{
                               opacity: 0,
                               transform: "translateY(20px)",
-                              animation: `fadeIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards ${i * 0.15}s`,
+                              animation: `fadeIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards ${
+                                i * 0.15
+                              }s`,
                             }}
                           >
                             <div className="inner">
