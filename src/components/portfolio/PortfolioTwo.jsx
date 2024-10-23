@@ -141,7 +141,7 @@ const Portfolio = () => {
                           </li>
                         ))
                       ) : (
-                        <p>No items found for this category.</p>
+                        <p>Coming Soon...</p>
                       )}
                     </ul>
                   </Gallery>
