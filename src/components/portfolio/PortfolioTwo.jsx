@@ -8,7 +8,7 @@ const tabList = [
   "Email",
   "Newsletter",
   "Fullstack",
-  "Design",
+  "Shopify",
 ];
 
 const portfolioItems = [
@@ -48,12 +48,12 @@ const portfolioItems = [
     meta: "Newsletter",
     portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
   },
-  // {
-  //   img: "/img/portfolio/dvc.png",
-  //   title: "Portos",
-  //   meta: "Landing",
-  //   portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
-  // },
+  {
+    img: "/img/portfolio/realestate.png",
+    title: "Portos",
+    meta: "Landing",
+    portfolioLink: "https://jeffrey-portos-landing-page.netlify.app/",
+  },
 ];
 
 const Portfolio = () => {
