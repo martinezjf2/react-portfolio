@@ -10,8 +10,23 @@ import {
   FaJsSquare,
   FaHtml5,
   FaCss3Alt,
+  FaGithub,
+  FaFigma,
+  FaSketch,
+  // FaAws,
 } from "react-icons/fa";
-import { SiNextdotjs, SiShopify, SiGoogleanalytics } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiShopify,
+  SiGoogleanalytics,
+  SiRubyonrails,
+  SiZendesk,
+  // SiKlaviyo,
+  // SiConvertkit,
+  // SiMjml,
+  SiRubygems,
+} from "react-icons/si";
+// import { RiAmazonS3Line } from "react-icons/ri";
 
 const partnerList = [
   {
@@ -206,6 +221,198 @@ const partnerList = [
     name: "HTML5",
     animationDelay: "360",
   },
+  {
+    icon: (
+      <div
+        style={{
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <SiRubygems
+          style={{ width: "100%", height: "100%", color: "#CC342D" }}
+        />{" "}
+        {/* Ruby */}
+      </div>
+    ),
+    name: "Ruby",
+    animationDelay: "390",
+  },
+  {
+    icon: (
+      <div
+        style={{
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <SiRubyonrails
+          style={{ width: "100%", height: "100%", color: "#CC0000" }}
+        />{" "}
+        {/* Ruby on Rails */}
+      </div>
+    ),
+    name: "Ruby on Rails",
+    animationDelay: "420",
+  },
+  {
+    icon: (
+      <div
+        style={{
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <FaGithub style={{ width: "100%", height: "100%", color: "#181717" }} />{" "}
+        {/* GitHub */}
+      </div>
+    ),
+    name: "GitHub",
+    animationDelay: "450",
+  },
+  {
+    icon: (
+      <div
+        style={{
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <FaFigma style={{ width: "100%", height: "100%", color: "#F24E1E" }} />{" "}
+        {/* Figma */}
+      </div>
+    ),
+    name: "Figma",
+    animationDelay: "480",
+  },
+  {
+    icon: (
+      <div
+        style={{
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <FaSketch style={{ width: "100%", height: "100%", color: "#F7B500" }} />{" "}
+        {/* Sketch */}
+      </div>
+    ),
+    name: "Sketch",
+    animationDelay: "510",
+  },
+  {
+    icon: (
+      <div
+        style={{
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <SiZendesk
+          style={{ width: "100%", height: "100%", color: "#03363D" }}
+        />{" "}
+        {/* Zendesk Support */}
+      </div>
+    ),
+    name: "Zendesk Support",
+    animationDelay: "540",
+  },
+  // {
+  //   icon: (
+  //     <div
+  //       style={{
+  //         width: "40px",
+  //         height: "40px",
+  //         display: "flex",
+  //         alignItems: "center",
+  //         justifyContent: "center",
+  //       }}
+  //     >
+  //       <SiKlaviyo
+  //         style={{ width: "100%", height: "100%", color: "#4DC528" }}
+  //       />{" "}
+  //       {/* Klaviyo */}
+  //     </div>
+  //   ),
+  //   name: "Klaviyo",
+  //   animationDelay: "570",
+  // },
+  // {
+  //   icon: (
+  //     <div
+  //       style={{
+  //         width: "40px",
+  //         height: "40px",
+  //         display: "flex",
+  //         alignItems: "center",
+  //         justifyContent: "center",
+  //       }}
+  //     >
+  //       <SiMjml style={{ width: "100%", height: "100%", color: "#0068FF" }} />{" "}
+  //       {/* MJML */}
+  //     </div>
+  //   ),
+  //   name: "MJML",
+  //   animationDelay: "600",
+  // },
+  // {
+  //   icon: (
+  //     <div
+  //       style={{
+  //         width: "40px",
+  //         height: "40px",
+  //         display: "flex",
+  //         alignItems: "center",
+  //         justifyContent: "center",
+  //       }}
+  //     >
+  //       <RiAmazonS3Line
+  //         style={{ width: "100%", height: "100%", color: "#FF9900" }}
+  //       />{" "}
+  //       {/* AWS S3 */}
+  //     </div>
+  //   ),
+  //   name: "AWS S3",
+  //   animationDelay: "630",
+  // },
+  // {
+  //   icon: (
+  //     <div
+  //       style={{
+  //         width: "40px",
+  //         height: "40px",
+  //         display: "flex",
+  //         alignItems: "center",
+  //         justifyContent: "center",
+  //       }}
+  //     >
+  //       <SiConvertkit
+  //         style={{ width: "100%", height: "100%", color: "#FF6138" }}
+  //       />{" "}
+  //       {/* ConvertKit */}
+  //     </div>
+  //   ),
+  //   name: "ConvertKit",
+  //   animationDelay: "660",
+  // },
 ];
 
 export default function BrandAnimation() {

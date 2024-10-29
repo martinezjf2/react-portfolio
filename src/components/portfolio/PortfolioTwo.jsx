@@ -13,6 +13,30 @@ const tabList = [
 
 const portfolioItems = [
   {
+    img: "/img/portfolio/realestate.png",
+    title: "Portos",
+    meta: "Landing",
+    portfolioLink: "https://jeffrey-portos-landing-page.netlify.app/",
+  },
+  {
+    img: "/img/portfolio/dvc.png",
+    title: "DVC Newsletter Email",
+    meta: "Newsletter",
+    portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
+  },
+  {
+    img: "/img/portfolio/sweetwater.png",
+    title: "Sweetwater Receipt",
+    meta: "Email",
+    portfolioLink: "https://jeffreysweetwater-transactional-email.netlify.app",
+  },
+  {
+    img: "/img/portfolio/guild.png",
+    title: "Guild Education",
+    meta: "Fullstack",
+    portfolioLink: "https://guild-education-replica.herokuapp.com",
+  },
+  {
     img: "/img/portfolio/soccer.png",
     title: "Soccer.com",
     meta: "Email",
@@ -25,34 +49,10 @@ const portfolioItems = [
     portfolioLink: "https://jeffrey-mixtiles-promotional-email.netlify.app",
   },
   {
-    img: "/img/portfolio/guild.png",
-    title: "Guild Education",
-    meta: "Fullstack",
-    portfolioLink: "https://guild-education-replica.herokuapp.com",
-  },
-  {
     img: "/img/portfolio/sketch.png",
     title: "Sketch Release",
     meta: "Email",
     portfolioLink: "https://jeffrey-sketch-release-email.netlify.app",
-  },
-  {
-    img: "/img/portfolio/sweetwater.png",
-    title: "Sweetwater Receipt",
-    meta: "Email",
-    portfolioLink: "https://jeffreysweetwater-transactional-email.netlify.app",
-  },
-  {
-    img: "/img/portfolio/dvc.png",
-    title: "DVC Newsletter Email",
-    meta: "Newsletter",
-    portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
-  },
-  {
-    img: "/img/portfolio/realestate.png",
-    title: "Portos",
-    meta: "Landing",
-    portfolioLink: "https://jeffrey-portos-landing-page.netlify.app/",
   },
 ];
 
@@ -106,7 +106,12 @@ const Portfolio = () => {
                               }s`,
                             }}
                           >
-                            <div className="inner">
+                            <div
+                              className="inner"
+                              style={{
+                                boxShadow: "0 4px 15px rgba(0, 0, 0, 0.2)",
+                              }}
+                            >
                               <div className="entry shane_tm_portfolio_animation_wrap">
                                 <Item
                                   original={val.img}
