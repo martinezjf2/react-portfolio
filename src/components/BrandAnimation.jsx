@@ -457,7 +457,14 @@ export default function BrandAnimation() {
               }}
             >
               {val.icon}
-              <p style={{ fontSize: "18px", marginTop: "8px", color: "#333" }}>
+              <p
+                style={{
+                  fontSize: "18px",
+                  marginTop: "8px",
+                  color: "#333",
+                  textAlign: "center",
+                }}
+              >
                 {val.name}
               </p>
             </div>
