@@ -25,6 +25,12 @@ const portfolioItems = [
     portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
   },
   {
+    img: "/img/portfolio/seguidores.png",
+    title: "Spanish Ministry",
+    meta: "Fullstack",
+    portfolioLink: "https://www.seguidoresdejesus.com",
+  },
+  {
     img: "/img/portfolio/sweetwater.png",
     title: "Sweetwater Receipt",
     meta: "Email",
