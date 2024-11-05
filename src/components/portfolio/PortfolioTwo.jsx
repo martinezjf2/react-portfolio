@@ -44,6 +44,12 @@ const portfolioItems = [
     portfolioLink: "https://guild-education-replica.herokuapp.com",
   },
   {
+    img: "/img/portfolio/guitarstore.png",
+    title: "GuitarStore",
+    meta: "Fullstack",
+    portfolioLink: "https://jeffrey-guitarstore.netlify.app/",
+  },
+  {
     img: "/img/portfolio/soccer.png",
     title: "Soccer.com",
     meta: "Email",
