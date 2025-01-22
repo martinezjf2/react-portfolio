@@ -1109,16 +1109,20 @@ ul.react-tabs__tab-list {
   z-index: 2;
   bottom: 0;
   padding: 10px 15px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-between;
   transform: translateY(100%);
   cursor: default;
   transition: transform 0.5s;
+ h5 {
+  font-size: 14px;
+ }
 }
 .shane_tm_portfolio .mobile_title h3 {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 5px;
   a {
     text-decoration: none;
     color: #000;
@@ -1146,6 +1150,7 @@ ul.react-tabs__tab-list {
   font-family: "Poppins";
   font-weight: 500;
   color: #000;
+  margin-top: 5px;
 }
 
 /*---------------------------------------------------*/

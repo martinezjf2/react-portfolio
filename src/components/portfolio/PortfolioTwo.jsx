@@ -26,6 +26,13 @@ const portfolioItems = [
     portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
   },
   {
+    img: "/img/portfolio/carrysmart.png",
+    title: "CarrySmart",
+    meta: "Shopify",
+    portfolioLink: "https://jeffrey-carrysmart.myshopify.com/",
+    password: "1234"
+  },
+  {
     img: "/img/portfolio/seguidores.png",
     title: "Spanish Ministry",
     meta: "Fullstack",
@@ -153,7 +160,19 @@ const Portfolio = () => {
                                     {val.title}
                                   </a>
                                 </h3>
-                                <span>{val.meta}</span>
+                                <h5>{val.meta}</h5>
+            
+                                {val.password && (
+                                  <p
+                                    style={{
+                                      fontStyle: "",
+                                      color: "#555",
+                                      marginTop: "5px",
+                                    }}
+                                  >
+                                    Password: {val.password}
+                                  </p>
+                                )}
                               </div>
                             </div>
                           </li>
