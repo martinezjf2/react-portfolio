@@ -14,6 +14,31 @@ const tabList = [
 
 const portfolioItems = [
   {
+    img: "/img/portfolio/guitarstore.png",
+    title: "GuitarStore",
+    meta: "Fullstack",
+    portfolioLink: "https://jeffrey-guitarstore.netlify.app/",
+  },
+  {
+    img: "/img/portfolio/newSeguidores2.png",
+    title: "Spanish Ministry",
+    meta: "Fullstack",
+    portfolioLink: "https://seguidoresdejesus.netlify.app",
+  },
+  {
+    img: "/img/portfolio/carrysmart.png",
+    title: "CarrySmart",
+    meta: "Shopify",
+    portfolioLink: "https://jeffrey-carrysmart.myshopify.com/",
+    password: "1234",
+  },
+  {
+    img: "/img/portfolio/guild.png",
+    title: "Guild Education",
+    meta: "Fullstack",
+    portfolioLink: "https://guild-education-replica.herokuapp.com",
+  },
+  {
     img: "/img/portfolio/realestate.png",
     title: "Portos",
     meta: "Landing",
@@ -26,35 +51,10 @@ const portfolioItems = [
     portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
   },
   {
-    img: "/img/portfolio/carrysmart.png",
-    title: "CarrySmart",
-    meta: "Shopify",
-    portfolioLink: "https://jeffrey-carrysmart.myshopify.com/",
-    password: "1234"
-  },
-  {
-    img: "/img/portfolio/seguidores.png",
-    title: "Spanish Ministry",
-    meta: "Fullstack",
-    portfolioLink: "https://www.seguidoresdejesus.com",
-  },
-  {
     img: "/img/portfolio/sweetwater.png",
     title: "Sweetwater Receipt",
     meta: "Email",
     portfolioLink: "https://jeffreysweetwater-transactional-email.netlify.app",
-  },
-  {
-    img: "/img/portfolio/guild.png",
-    title: "Guild Education",
-    meta: "Fullstack",
-    portfolioLink: "https://guild-education-replica.herokuapp.com",
-  },
-  {
-    img: "/img/portfolio/guitarstore.png",
-    title: "GuitarStore",
-    meta: "Fullstack",
-    portfolioLink: "https://jeffrey-guitarstore.netlify.app/",
   },
   {
     img: "/img/portfolio/soccer.png",
@@ -73,6 +73,13 @@ const portfolioItems = [
     title: "Sketch Release",
     meta: "Email",
     portfolioLink: "https://jeffrey-sketch-release-email.netlify.app",
+  },
+  {
+    img: "/img/portfolio/seguidores.png",
+    title: "Spanish Ministry",
+    meta: "Fullstack",
+    portfolioLink: "https://www.seguidoresdejesus.com",
+    details: "Ruby on Rails",
   },
 ];
 
