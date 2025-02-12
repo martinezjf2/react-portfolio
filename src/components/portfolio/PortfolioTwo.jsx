@@ -21,7 +21,7 @@ const portfolioItems = [
   },
   {
     img: "/img/portfolio/newSeguidores2.png",
-    title: "Spanish Ministry",
+    title: "Spanish Ministry (In Progress)",
     meta: "Fullstack",
     portfolioLink: "https://seguidoresdejesus.netlify.app",
   },
