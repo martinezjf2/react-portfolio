@@ -55,7 +55,7 @@ const AboutTwo = () => {
                     by playing guitar outdoors.
                   </p>
                 </div>
-                <div
+                {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -63,7 +63,7 @@ const AboutTwo = () => {
                   <a href="img/resume/Jeffrey Martinez Resume.pdf" download>
                     Download CV
                   </a>
-                </div>
+                </div> */}
               </div>
               {/* End right */}
             </div>
