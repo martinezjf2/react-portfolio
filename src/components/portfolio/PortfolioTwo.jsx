@@ -50,12 +50,12 @@ const portfolioItems = [
     meta: "Newsletter",
     portfolioLink: "https://jeffrey-dvc-newletter-email.netlify.app",
   },
-  {
-    img: "/img/portfolio/sweetwater.png",
-    title: "Sweetwater Receipt",
-    meta: "Email",
-    portfolioLink: "https://jeffreysweetwater-transactional-email.netlify.app",
-  },
+  // {
+  //   img: "/img/portfolio/sweetwater.png",
+  //   title: "Sweetwater Receipt",
+  //   meta: "Email",
+  //   portfolioLink: "https://jeffreysweetwater-transactional-email.netlify.app",
+  // },
   {
     img: "/img/portfolio/soccer.png",
     title: "Soccer.com",
