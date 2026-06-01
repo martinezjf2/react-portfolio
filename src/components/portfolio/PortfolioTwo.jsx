@@ -23,7 +23,7 @@ const portfolioItems = [
     img: "/img/portfolio/newSeguidores2.png",
     title: "Spanish Ministry (In Progress)",
     meta: "Fullstack",
-    portfolioLink: "https://seguidoresdejesus.netlify.app",
+    portfolioLink: "https://stkilianspanishministry.com",
   },
   {
     img: "/img/portfolio/carrysmart.png",
@@ -32,12 +32,12 @@ const portfolioItems = [
     portfolioLink: "https://jeffrey-carrysmart.myshopify.com/",
     password: "1234",
   },
-  {
-    img: "/img/portfolio/guild.png",
-    title: "Guild Education",
-    meta: "Fullstack",
-    portfolioLink: "https://guild-education-replica.herokuapp.com",
-  },
+  // {
+  //   img: "/img/portfolio/guild.png",
+  //   title: "Guild Education",
+  //   meta: "Fullstack",
+  //   portfolioLink: "https://guild-education-replica.herokuapp.com",
+  // },
   {
     img: "/img/portfolio/realestate.png",
     title: "Portos",
@@ -74,13 +74,13 @@ const portfolioItems = [
     meta: "Email",
     portfolioLink: "https://jeffrey-sketch-release-email.netlify.app",
   },
-  {
-    img: "/img/portfolio/seguidores.png",
-    title: "Spanish Ministry",
-    meta: "Fullstack",
-    portfolioLink: "https://www.seguidoresdejesus.com",
-    details: "Ruby on Rails",
-  },
+  // {
+  //   img: "/img/portfolio/seguidores.png",
+  //   title: "Spanish Ministry",
+  //   meta: "Fullstack",
+  //   portfolioLink: "https://www.seguidoresdejesus.com",
+  //   details: "Ruby on Rails",
+  // },
 ];
 
 const Portfolio = () => {
@@ -201,5 +201,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-// Just added comment to push everything again
