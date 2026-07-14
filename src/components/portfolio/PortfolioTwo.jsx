@@ -74,6 +74,12 @@ const portfolioItems = [
     meta: "Email",
     portfolioLink: "https://jeffrey-sketch-release-email.netlify.app",
   },
+  {
+    img: "/img/portfolio/joncarlos.png",
+    title: "Concert Ticket",
+    meta: "Email",
+    portfolioLink: "https://jon-carlos-ticket.netlify.app/"
+  },
   // {
   //   img: "/img/portfolio/seguidores.png",
   //   title: "Spanish Ministry",
