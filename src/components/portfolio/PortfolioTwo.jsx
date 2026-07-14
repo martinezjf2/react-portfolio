@@ -9,7 +9,7 @@ const tabList = [
   "Newsletter",
   "Fullstack",
   "Shopify",
-  "Wordpress",
+  // "Wordpress",
 ];
 
 const portfolioItems = [
