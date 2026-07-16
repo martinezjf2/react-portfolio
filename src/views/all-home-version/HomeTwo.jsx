@@ -6,8 +6,6 @@ import Portfolio from "../../components/portfolio/PortfolioTwo";
 // import Skills from "../../components/skills/SkillsTwo";
 // import Video from "../../components/video/VideoTwo";
 import Brand from "../../components/BrandAnimation";
-// import Testimonial from "../../components/testimonial/TestimonialTwo";
-// import Blog from "../../components/news/Blog";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 
@@ -15,10 +13,7 @@ const HomeTwo = () => {
   return (
     <div className="home-two">
       <Header />
-      {/* End Header Section */}
-
       <Slider />
-      {/* End Slider Section */}
 
       <div className="shane_tm_section">
         <div className="shane_tm_partners">
@@ -32,16 +27,10 @@ const HomeTwo = () => {
       {/* End shane_tm_partners */}
 
       <About />
-      {/* End About Section */}
-
       <Portfolio />
-      {/* End Portfolio Section */}
-
       {/* <Skills /> */}
-      {/* End Skills Section */}
-
       {/* <Video /> */}
-      {/* End Video Section */}
+
 
       {/* Testimonials Section */}
       {/* <div className="shane_tm_section" id="testimonials">
@@ -76,10 +65,7 @@ const HomeTwo = () => {
       {/* End Blog Section */}
 
       <CallToAction />
-      {/* End CallToAction */}
-
       <Footer />
-      {/* End Footer Section */}
     </div>
   );
 };
